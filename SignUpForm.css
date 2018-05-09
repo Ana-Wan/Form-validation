@@ -1,0 +1,55 @@
+body{
+  font-family: helvetica, sans-serif;
+  font-size: 130%;
+}
+
+input{
+  width: 280px;
+  font-size:20px;
+  padding: 6px 6px 12px 6px;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+
+label{
+  position: relative;
+  top: 4px;
+  width: 200px;
+  float: left;
+  
+}
+
+#wrapper{
+  
+  width: 550px;
+  padding-top: 50px;
+  margin: 0 auto;
+  
+}
+
+.form-element{
+  margin-bottom: 15px;
+}
+
+#submitButton{
+  width: 100px;
+  padding: 6px 6px 10px 6px;
+  background-color: #e6e6e6;
+  margin-left: 200px;
+}
+
+#errorMessage{
+  color: red;
+  font-size: 80% !important;
+}
+
+#successMessage{
+  color: green;
+  font-size: 80% !important;
+  padding: 5px;
+  display: none;
+}
+
+
+
+
